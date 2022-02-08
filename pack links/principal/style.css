@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Rowdies:wght@300&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+body {
+    background-color: #120C33;
+    width: 100%;
+}
+
+header{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    border-bottom: solid 2px white;
+    padding-bottom: 20px;
+    width: 100%;
+}
+#logo {
+    max-width: 80px;
+}
+
+h1 {
+    font-family: 'Rowdies', cursive;
+    color: rgb(171, 187, 26);
+    margin: 0 auto;
+    text-shadow: 3px 3px black;
+    font-size: 24pt;
+}
+
+P {
+    color: aliceblue;
+}
+
+
+#id-insta {
+    background-color: rgba(240, 248, 255, 0.973);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    padding: 7px;
+   
+    width: 110px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 5px 5px 4px black;
+    position: fixed;
+    margin-top: 130px;
+    transition: 0.3s;
+}
+
+#id-insta:hover {
+    background-color: rgba(255, 255, 255, 0.973);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    padding: 7px;
+   
+    width: 110px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: solid 2px rgb(185, 36, 36);
+    position: fixed;
+    margin-top: 130px;
+}
+
+.insta-logo {
+    max-width: 20px;
+}
+
+#insta-texto {
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+}
+
+section{
+    max-width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    
+}
+
+a {
+  
+    align-items: center;
+}
+
+img {
+    max-width: 400px;
+    transition: 0.3s;
+    border-radius: 2px;
+}
+
+h3 {
+    color: rgb(255, 246, 127);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+   
+    border: solid 1px white;
+    padding: 10px;
+    max-width: 330px;
+    margin: 20px auto;
+    
+}
+
+section img:hover {
+    max-width: 380px;
+    border: solid 1px rgb(233, 233, 233);
+}
+
+@media (max-width:400px) {
+    h1 {
+        font-family: 'Rowdies', cursive;
+        color: rgb(183, 221, 45);
+        margin: auto;
+        text-shadow: 3px 3px black;
+        font-size: 13pt;
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    .div-pro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    #logo {
+        max-width: 60px;
+    }
+
+    .div-pro {
+        
+    }
+    section{
+        
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        
+    }
+    a {
+        width: 330px;
+       
+    }
+
+    img {
+        max-width: 330px;
+        
+    }
+
+    img:hover {
+        max-width: 310px;
+        border: solid 1px rgb(233, 233, 233);
+    }
+}
+
+h2 {
+    color: aliceblue;
+}
